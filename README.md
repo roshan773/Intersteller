@@ -1,4 +1,4 @@
-# Tech Products Dashboard
+# API HUNTER
 
 This project is a **React-based application** that allows users to view and manage a list of tech products fetched from an external API. The application features authentication via login, a dashboard to list the products in a table, and a detailed view for individual products. This project is designed to handle authentication, product listing, and navigation to a product’s detailed page seamlessly.
 
