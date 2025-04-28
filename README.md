@@ -1,27 +1,23 @@
-Tech Products Dashboard
-This project is a React-based application that allows users to view and manage a list of tech products fetched from an external API. The application features authentication via login, a dashboard to list the products in a table, and a detailed view for individual products. This project is designed to handle authentication, product listing, and navigation to a product’s detailed page seamlessly.
+# Tech Products Dashboard
 
-Features
-Login Page: Allows users to log in using the reqres.in API.
+This project is a **React-based application** that allows users to view and manage a list of tech products fetched from an external API. The application features authentication via login, a dashboard to list the products in a table, and a detailed view for individual products. This project is designed to handle authentication, product listing, and navigation to a product’s detailed page seamlessly.
 
-Dashboard: Displays a paginated list of tech products in a table format. Each product can be clicked to view detailed information on a separate page.
+## Features
 
-Single Product Page: Displays detailed information about a single product when a user clicks on the product's brand on the Dashboard page.
+- **Login Page**: Allows users to log in using the `reqres.in` API.
+- **Dashboard**: Displays a paginated list of tech products in a table format. Each product can be clicked to view detailed information on a separate page.
+- **Single Product Page**: Displays detailed information about a single product when a user clicks on the product's brand on the Dashboard page.
+- **Private Routes**: Ensures that only authenticated users can access the Dashboard and Single Product Pages.
+- **Responsive Design**: The application is fully responsive, making it accessible across devices like smartphones, tablets, and desktops.
 
-Private Routes: Ensures that only authenticated users can access the Dashboard and Single Product Pages.
+## Installation
 
-Responsive Design: The application is fully responsive, making it accessible across devices like smartphones, tablets, and desktops.
-
-Installation
 To set up the project locally, follow these steps:
 
-Clone this repository:
-
-bash
-Copy
-Edit
-git clone <repository-url>
-cd <project-folder>
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
 Install the dependencies:
 
 bash
@@ -168,8 +164,5 @@ API Issue: There were issues with the reqres.in API, which caused login failures
 Conclusion
 This application demonstrates how to integrate authentication and API-based data fetching in React. The Dashboard page presents a list of tech products, and each product can be clicked to view more details. The application is designed with security and usability in mind, and follows best practices for managing authentication state using Context API.
 
-This README provides clear instructions and information about your project’s structure, API integration, components, and features, making it easy for others to understand and contribute to the project.
-
-
-##project Video Link
+#Project Video Link
 https://drive.google.com/drive/folders/1eln3mQGZj8Q1F53zKKHPOkJfO4Hp6yF3
